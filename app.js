@@ -251,3 +251,83 @@ if(age2 >= 18){
   }
 
 }
+
+
+
+// 8 - SWITCH STATEMENT 
+
+// ANS1
+// Multiple conditions check karne ke liye switch use hota hai.
+
+// ANS2
+let day = "Monday";
+
+switch(day){
+
+  case "Monday":
+    console.log("Start of week");
+    break;
+
+  case "Friday":
+    console.log("Holiday");
+    break;
+
+  default:
+    console.log("Normal Day");
+}
+
+// ANS3
+let tab = "home";
+
+switch(tab){
+
+  case "home":
+    console.log("Home Page");
+    break;
+
+  case "about":
+    console.log("About Page");
+    break;
+
+  case "setting":
+    console.log("Settings");
+    break;
+
+  default:
+    console.log("Invalid Tab");
+}
+
+// ANS4
+// Holiday
+
+// ANS5
+// Switch	                if-else
+// Multiple exact values	Complex conditions
+// Cleaner syntax	        More flexible
+
+// ANS6
+let num1 = 10;
+let num3 = 5;
+let operator = "/";
+
+switch(operator){
+
+  case "+":
+    console.log(num1 + num3);
+    break;
+
+  case "-":
+    console.log(num1 - num3);
+    break;
+
+  case "*":
+    console.log(num1 * num3);
+    break;
+
+  case "/":
+    console.log(num1 / num3);
+    break;
+
+  default:
+    console.log("Invalid Operator");
+}
