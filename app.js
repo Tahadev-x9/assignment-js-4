@@ -59,5 +59,195 @@ console.log(str.slice(0, 4));
 // Indexing direct access hai.
 
 // ANS5
-let user = "hAsAn";
-console.log(user.toLowerCase());
+// let user = "hAsAn";
+// console.log(user.toLowerCase());
+
+// ANS6
+let paragraph = "My name is Hasan";
+let words = paragraph.split(" ");    //  ['My', 'name', 'is', 'Hasan']
+console.log(words);
+
+
+
+// 3 - ARRAYS
+
+// ANS1
+// Array ek variable hota hai jo multiple values store karta hai.
+
+// ANS2
+let fruits = ["apple","banana","orange","mango","grapes"];
+console.log(fruits);
+
+// ANS3
+// push()
+// End mein element add karta hai.
+// pop()
+// End se element remove karta hai.
+
+// ANS4
+// ["a","z","c"]  splice mai mid sai value change or use hoti 
+
+// ANS5
+// let arr = [10,20,30,40];
+
+// console.log(arr[0]);
+// console.log(arr[arr.length - 1]);   // OUTPUT 10 40 
+
+// ANS6 
+let fruit = [["apple"],["banana","orange"]];     // ?
+console.log(fruit[1][1]);
+
+
+
+//  4 - ARRAY METHODS
+
+// ANS1
+// slice()	                           splice()
+// Original array change nahi karta	  Original array change karta
+// Copy/extract karta	               Add /remove karta
+
+// ANS2
+// let arr = ["A","B","C"];
+// arr.splice(2,0,"Ali");        // ? 
+// console.log(arr);
+
+// ANS3
+let arr = [1,2,3,4,5];
+arr.splice(1,2);
+console.log(arr);
+
+// ANS4
+// [2,3]
+
+// ANS5
+// shift()
+// First element remove karta hai.
+// unshift()
+// Start mein element add karta hai.
+
+// ANS6
+let students = ["Ali","Hasan","Ahmed"];
+let copy = students.slice();
+console.log(copy);
+
+
+
+// 5-OBJECT 
+
+// ANS1
+// Object related data ko key-value pairs mein store karta hai.
+
+// ANS2
+// let student = {
+//   name: "Hasan",
+//   age: 21,
+//   email: "hasan@gmail.com"
+// };
+
+// ANS3
+// Dot notation
+// Dot notation
+// user.name
+// Bracket notation
+
+// ANS4
+// undefined
+
+// ANS5
+// let user = {
+//   name: "Hasan"
+// };
+// user.city = "Karachi";
+// console.log(user);
+
+// ANS6
+let user = {
+  name: "Hasan",
+  age: 21
+};
+console.log("My name is Hasan and my age is 21");
+
+
+// 6- DATA  TYPES  
+
+// ANS1
+// Primitive data types:
+
+// String
+// Number
+// Boolean
+// Undefined
+// Null
+
+// ANS2
+// Reference data types:
+// Object
+// Array
+// Function
+
+// ANS3
+// undefined	             null
+// Value assign nahi hui	Intentionally empty
+
+// ANS4
+// undefined
+
+// ANS5
+// typeof []      // object
+// typeof {}      // object
+// typeof null    // object
+
+// ANS6
+let isLoggedIn = true;
+isLoggedIn = !isLoggedIn;
+console.log(isLoggedIn);
+
+
+// 7-IF ELSE CONDITION 
+
+// ANS1
+// if else decision making ke liye use hota hai.
+
+// ANS2 
+let num = 4;
+
+if(num % 2 === 0){
+  console.log("Even");
+}else{
+  console.log("Odd");
+}
+
+// ANS3
+let num2 = -5;
+if(num2 > 0){
+  console.log("Positive");
+}else if(num2 < 0){
+  console.log("Negative");
+}else{
+  console.log("Zero");
+}
+
+// ANS4
+// A
+
+// ANS5
+let email = "admin@gmail.com";
+let password = "123";
+
+if(email === "admin@gmail.com" && password === "123"){
+  console.log("Login Success");
+}else{
+  console.log("Invalid");
+}
+
+// ANS6
+let age2 = 20;
+let hasCNIC = true;
+
+if(age2 >= 18){
+  
+  if(hasCNIC){
+    console.log("You can vote");
+  }
+
+}
