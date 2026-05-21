@@ -394,3 +394,24 @@ for(let i = 0; i < fruits.length; i++){
     console.log(fruits[i][j]);
   }
 }
+
+// ANS4 
+// Rows = horizontal lines
+// Columns = vertical lines
+
+// Example:
+// [
+//  [1,2,3], //  1row
+//  [4,5,6]  // 3 Column 
+// ]
+
+// ANS6 
+for (let i = 1 ; i <=4 ; i++){
+  let star = " ";
+  for(let j = 1; j <= i; j++){
+    star += "*";
+  }
+  console.log(star);
+} 
+
+// assignment end 4 completed
