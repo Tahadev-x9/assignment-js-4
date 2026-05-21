@@ -75,8 +75,8 @@ console.log(words);
 // Array ek variable hota hai jo multiple values store karta hai.
 
 // ANS2
-let fruits = ["apple","banana","orange","mango","grapes"];
-console.log(fruits);
+// let fruits = ["apple","banana","orange","mango","grapes"];
+// console.log(fruits);
 
 // ANS3
 // push()
@@ -112,9 +112,9 @@ console.log(fruit[1][1]);
 // console.log(arr);
 
 // ANS3
-let arr = [1,2,3,4,5];
-arr.splice(1,2);
-console.log(arr);
+// let arr = [1,2,3,4,5];
+// arr.splice(1,2);
+// console.log(arr);
 
 // ANS4
 // [2,3]
@@ -330,4 +330,67 @@ switch(operator){
 
   default:
     console.log("Invalid Operator");
+}
+
+
+
+//  9 -LOOPS 
+
+// ANS1
+// loop repeated task ko multiple times chaltata hai. 
+
+// ANS2
+for(let i = 1; i <= 10; i++){
+  console.log(i);
+}
+
+// ANS3
+for(let i = 2; i <= 20; i += 2){
+  console.log(i);
+}
+
+// ANS4
+// output 0 1 2 
+
+// ANS5
+// let arr = ["A","B","C"];
+// for(let i = 0; i < arr.length; i++){
+//   console.log(arr[i]);
+// }
+
+// ANS6
+// nested loop = loop kai andr loop..
+// Example:
+
+for(let i = 1; i <= 3; i++){
+
+  for(let j = 1; j <= 2; j++){
+    console.log(i,j);
+  }
+
+}
+
+
+
+// 10 - NESTED ARRAY + NESTED LOOP 
+
+// ANS1
+// Nested array = array ke andar array.
+// EXAMPLE:
+// let arr = [[1,2],[3,4]];
+
+// ANS2
+let arr = [[1,2],[3,4]]
+console.log(arr[1][0])        // output 3 
+
+// ANS3
+let fruits = [
+  ["apple","banana"],
+  ["orange","mango"]
+];
+
+for(let i = 0; i < fruits.length; i++){
+  for(let j = 0; j < fruits[i].length; j++){
+    console.log(fruits[i][j]);
+  }
 }
