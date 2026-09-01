@@ -22,3 +22,4 @@ The project focuses on writing clean and simple JavaScript code.
 - User-friendly interface
 - Beginner-friendly project
 - Organized file structure
+user friendly interface woth best usage and best fulter out
