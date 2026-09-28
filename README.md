@@ -17,6 +17,16 @@ The project focuses on writing clean and simple JavaScript code.
 
 ## ✨ Features
 
+
+
+# Project Title
+
+Use this command to install the dependencies:
+```bash
+npm install my-cool-package
+```
+
+of course
 - Practice of JavaScript fundamentals
 - Simple and easy-to-read code
 - User-friendly interface
