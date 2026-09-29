@@ -2,7 +2,8 @@
 
 This project is a collection of JavaScript practice tasks completed as part of my learning journey. 
 The purpose of this assignment is to improve my understanding of JavaScript concepts by solving different method of problem solving by diffferent function.. 
-
+actually method of building the code and doing it very securely is a bless
+.. 
 ## 📌 Project Overview
 
 In this assignment, I worked on different JavaScript exercises to practice problem-solving and strengthen my coding skills.
