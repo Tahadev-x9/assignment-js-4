@@ -21,13 +21,11 @@ The project focuses on writing clean and simple JavaScript code.
 
 
 # Project Title
-
-Use this command to install the dependencies:
-```bash
+---
 npm install my-cool-package
-```
+npm react dev and the thing and best coreee...
+---
 
-of course
 - Practice of JavaScript fundamentals
 - Simple and easy-to-read code
 - User-friendly interface
